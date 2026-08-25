@@ -1,0 +1,13 @@
+# GROQ_API_KEY=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
+GROQ_API_KEY=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
+# Text/planning model (fast, cheap, good at reasoning + JSON)
+GROQ_MODEL=openai/gpt-oss-20b
+# Vision model, used ONLY for the screenshot fallback locator + verification.
+# gpt-oss-20b is TEXT ONLY - it cannot look at images - so this must be a
+# separate multimodal model. Confirmed working: qwen/qwen3.6-27b
+GROQ_VISION_MODEL=qwen/qwen3.6-27b
+
+
+DEEPSEEK_API_KEY=sk-db17701b94cf4406a981d3c1f0d16ba9
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+DEEPSEEK_MODEL=deepseek-chat
